@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "my-organization",
+            "project": "my-project",
+            "authToken": "my-auth-token",
+            "url": "https://sentry.io"
+          }
+        }
+      ]
+    },
+    "name": "firebaseauth",
+    "slug": "firebaseauth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "firebaseauth",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shivamshi.firebaseauth"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "94f62ea2-bea0-434e-a53f-fdb3b2ed1546"
+      }
+    }
+  }
+}
