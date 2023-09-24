@@ -1,3 +1,5 @@
 # KrishiKom
-# This Project is under development
-# Learn more about this : https://docs.google.com/presentation/d/1QqhdEHU17rgg0CBb3ZcCifI9XShzsGAZNtTx-_3w3Wk/edit?usp=sharing
+# This is my final year Project 
+# It is under development
+![image](https://github.com/shivamshi/KrishiKom/assets/67598248/3fb2d541-e93e-4f4a-adc9-ab5c58f429b3)
+![image](https://github.com/shivamshi/KrishiKom/assets/67598248/dcf663f7-8a47-4cab-a0db-fbadf6b90d8c)
