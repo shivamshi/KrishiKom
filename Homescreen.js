@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: '700',
     fontSize: 16,
-  },
+  }
 });
 
 export default HomeScreen;

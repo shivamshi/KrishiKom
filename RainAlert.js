@@ -5,7 +5,7 @@ const RainAlert = () => {
   const [timeOfDay, setTimeOfDay] = useState('');
 
   const func = () =>{
-    currentHour= new Date().getHours();
+    const currentHour = new Date().getHours();
     if(currentHour>=6 && currentHour<18){
         return true;
     }
@@ -14,17 +14,16 @@ const RainAlert = () => {
     }
   }
   const checkDayOrNight = () => {
-    const currentHour = new Date().getHours();
     if (func) {
-      setTimeOfDay('day');
+      setTimeOfDay('Yes rain will be here soon, prepare accordingly\n ⛈️');
     } else {
-      setTimeOfDay('night');
+      setTimeOfDay('For the next 5 days, their will be no rain, happy Farming ⛱️');
     }
   };
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Click to check if it is night or day</Text>
+      <Text style={styles.heading}>Click to check if their RAIN🌦️ in upcoming 5 days</Text>
       <TouchableOpacity style={styles.button} onPress={checkDayOrNight}>
         <Text style={styles.buttonText}>Check</Text>
       </TouchableOpacity>
