@@ -1,4 +1,4 @@
-Download the [APK](https://expo.dev//accounts/shivamshi/projects/firebaseauth/builds/7025693d-c067-41f8-9ab4-553f4185d88e)
+Download the [APK](https://drive.google.com/file/d/1BTWp1yndAo25g9XzeJARaqEOhzCIejog/view?usp=sharing)
 
 ![image](https://github.com/shivamshi/KrishiKom/assets/67598248/dcf663f7-8a47-4cab-a0db-fbadf6b90d8c)
 
