@@ -9,12 +9,7 @@ import { getAuth,signInWithEmailAndPassword ,createUserWithEmailAndPassword } fr
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCYOyYCuvgTHtsmeoGEYBWwYDgtMcav9AM",
-  authDomain: "cv-authentication.firebaseapp.com",
-  projectId: "cv-authentication",
-  storageBucket: "cv-authentication.appspot.com",
-  messagingSenderId: "605809593426",
-  appId: "1:605809593426:web:a8a642c963d397bb2a638b"
+  can tell u😁;
 };
 
 // Initialize Firebase
